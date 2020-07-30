@@ -1,0 +1,3 @@
+93.84.105.76:15034/cgi-bin/mapserv?mode=browse&template=openlayers&layers=all&map=/u01/gis/df/basemaps/osm-default.map
+
+http://93.84.105.76:15034/cgi-bin/mapserv?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fjpeg&LAYERS=default&TRANSPARENT=true&MAP=osm-default.map&WIDTH=256&HEIGHT=256&SRS=EPSG%3A900913&STYLES=&BBOX=2647167 7104975 2647779 7105586

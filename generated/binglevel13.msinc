@@ -1,0 +1,710 @@
+#undef _suburb_lbl_ol_width
+#undef _tertiary_lbl_clr
+#undef _park_clr
+#undef _village_lbl_ol_clr
+#undef _primary_lbl_ol_width
+#undef _track_font
+#undef _residential_clr
+#undef _waterarea_lbl_clr
+#undef _locality_size
+#undef _display_tertiaries
+#undef _display_river_lbl
+#undef _cycleway_width
+#undef _primary_lbl_clr
+#undef _display_pedestrian
+#undef _other_lbl_ol_width
+#undef _continent_lbl_ol_clr
+#undef _display_footways
+#undef _border_data
+#undef _town_size
+#undef _city_lbl_ol_width
+#undef _display_canal_lbl
+#undef _display_towns
+#undef _capital_font
+#undef _hamlet_lbl_ol_width
+#undef _hamlet_size
+#undef _display_continents
+#undef _landusage_data
+#undef _maxscale
+#undef _suburb_size
+#undef _display_town_symbol
+#undef _display_waterarea_lbl
+#undef _village_font
+#undef _display_industrial_lbl
+#undef _tertiary_ol_width
+#undef _river_lbl_ol_clr
+#undef _runway_center_width
+#undef _town_ol_clr
+#undef _suburb_lbl_size
+#undef _river_lbl_size
+#undef _display_trunks
+#undef _other_clr
+#undef _stream_lbl_clr
+#undef _label_buildings
+#undef _land_epsg
+#undef _canal_font
+#undef _hospital_lbl_size
+#undef _tertiary_width
+#undef _suburb_lbl_ol_clr
+#undef _river_lbl_clr
+#undef _suburb_font
+#undef _track_lbl_size
+#undef _motorway_ol_clr
+#undef _display_secondary_outline
+#undef _locality_lbl_size
+#undef _residential_font
+#undef _sports_lbl_ol_clr
+#undef _primary_width
+#undef _display_park_lbl
+#undef _display_landusage
+#undef _town_font
+#undef _capital_lbl_ol_width
+#undef _education_lbl_ol_width
+#undef _tertiary_bridge_width
+#undef _waterarea_lbl_ol_clr
+#undef _stream_font
+#undef _city_ol_clr
+#undef _secondary_font
+#undef _display_education_lbl
+#undef _border_2_inner_width
+#undef _track_lbl_clr
+#undef _display_bridges
+#undef _sports_font
+#undef _suburb_ol_clr
+#undef _display_railways
+#undef _town_lbl_ol_width
+#undef _display_hospital_lbl
+#undef _forest_clr
+#undef _trunk_lbl_size
+#undef _tertiary_clr
+#undef _country_lbl_ol_width
+#undef _footway_width
+#undef _pedestrian_font
+#undef _display_border_2
+#undef _stream_clr
+#undef _label_primaries
+#undef _river_clr
+#undef _forest_lbl_ol_width
+#undef _town_lbl_ol_clr
+#undef _runway_center_clr
+#undef _building_clr
+#undef _secondary_lbl_size
+#undef _secondary_ol_clr
+#undef _residential_ol_width
+#undef _motorway_width
+#undef _locality_lbl_ol_width
+#undef _park_lbl_size
+#undef _pedestrian_ol_clr
+#undef _cemetery_clr
+#undef _hamlet_ol_clr
+#undef _label_secondaries
+#undef _track_ol_width
+#undef _hamlet_lbl_ol_clr
+#undef _land_clr
+#undef _trunk_ol_width
+#undef _building_lbl_size
+#undef _sports_lbl_ol_width
+#undef _other_width
+#undef _tunnel_opacity
+#undef _capital_fg_clr
+#undef _footway_pattern
+#undef _park_lbl_clr
+#undef _display_highways
+#undef _label_track
+#undef _pedestrian_width
+#undef _display_pedestrian_outline
+#undef _display_waterways
+#undef _town_clr
+#undef _locality_lbl_ol_clr
+#undef _hospital_lbl_clr
+#undef _border_2_inner_clr
+#undef _pedestrian_clr
+#undef _taxiway_clr
+#undef _hospital_font
+#undef _building_ol_width
+#undef _village_size
+#undef _display_trunk_links
+#undef _display_suburb_symbol
+#undef _canal_lbl_ol_clr
+#undef _label_motorways
+#undef _industrial_font
+#undef _cycleway_ol_clr
+#undef _continent_lbl_clr
+#undef _border_2_inner_pattern
+#undef _town_lbl_size
+#undef _country_font
+#undef _waterways_data
+#undef _footway_ol_clr
+#undef _pedestrian_bridge_width
+#undef _hamlet_lbl_clr
+#undef _canal_clr
+#undef _pedestrian_ol_width
+#undef _cemetery_font
+#undef _display_sports_lbl
+#undef _railway_tunnel_opacity
+#undef _city_lbl_ol_clr
+#undef _waterarea_lbl_ol_width
+#undef _cemetery_lbl_clr
+#undef _village_clr
+#undef _layer_suffix
+#undef _track_clr
+#undef _hospital_clr
+#undef _motorway_clr
+#undef _display_motorways
+#undef _display_other_outline
+#undef _tertiary_font
+#undef _city_lbl_size
+#undef _education_lbl_ol_clr
+#undef _label_other_roads
+#undef _continent_lbl_size
+#undef _trunk_clr
+#undef _town_lbl_clr
+#undef _industrial_lbl_clr
+#undef _capital_fg_size
+#undef _pedestrian_lbl_ol_clr
+#undef _display_residential_lbl
+#undef _ocean_clr
+#undef _land_data
+#undef _display_hamlet_symbol
+#undef _display_aeroways
+#undef _education_lbl_size
+#undef _sports_lbl_clr
+#undef _sports_lbl_size
+#undef _building_ol_clr
+#undef _capital_lbl_ol_clr
+#undef _trunk_lbl_clr
+#undef _railways_data
+#undef _border_2_clr
+#undef _other_lbl_clr
+#undef _track_lbl_ol_clr
+#undef _industrial_ol_width
+#undef _forest_lbl_clr
+#undef _stream_lbl_size
+#undef _display_countries
+#undef _primary_ol_width
+#undef _park_lbl_ol_width
+#undef _motorway_bridge_width
+#undef _secondary_ol_width
+#undef _capital_lbl_clr
+#undef _industrial_lbl_size
+#undef _railway_ol_clr
+#undef _park_lbl_ol_clr
+#undef _motorway_lbl_clr
+#undef _waterarea_font
+#undef _primary_clr
+#undef _industrial_clr
+#undef _display_residential
+#undef _display_trunk_outline
+#undef _pedestrian_lbl_clr
+#undef _stream_lbl_ol_clr
+#undef _primary_bridge_clr
+#undef _track_ol_clr
+#undef _primary_bridge_width
+#undef _display_cemetery_lbl
+#undef _display_footway_outline
+#undef _display_cities
+#undef _tertiary_lbl_size
+#undef _canal_lbl_ol_width
+#undef _cemetery_lbl_ol_width
+#undef _taxiway_width
+#undef _track_width
+#undef _other_ol_clr
+#undef _tertiary_lbl_ol_clr
+#undef _cycleway_pattern
+#undef _trunk_width
+#undef _secondary_bridge_width
+#undef _other_bridge_clr
+#undef _pedestrian_lbl_size
+#undef _display_cycleway_outline
+#undef _waterarea_ol_width
+#undef _runway_center_pattern
+#undef _display_localities
+#undef _display_tertiary_outline
+#undef _locality_font
+#undef _stream_width
+#undef _building_lbl_clr
+#undef _city_font
+#undef _display_primary_outline
+#undef _waterarea_lbl_size
+#undef _railway_clr
+#undef _display_locality_symbol
+#undef _education_clr
+#undef _hamlet_clr
+#undef _display_suburbs
+#undef _primary_font
+#undef _secondary_lbl_ol_width
+#undef _display_capital_symbol
+#undef _continent_lbl_ol_width
+#undef _railway_width
+#undef _footway_clr
+#undef _motorway_lbl_size
+#undef _cycleway_ol_width
+#undef _waterarea_clr
+#undef _label_pedestrian
+#undef _label_trunks
+#undef _label_tertiaries
+#undef _trunk_bridge_width
+#undef _industrial_lbl_ol_width
+#undef _capital_size
+#undef _locality_ol_clr
+#undef _country_lbl_size
+#undef _display_buildings
+#undef _hamlet_font
+#undef _display_motorway_outline
+#undef _secondary_bridge_clr
+#undef _motorway_bridge_clr
+#undef _locality_clr
+#undef _motorway_font
+#undef _display_villages
+#undef _display_primaries
+#undef _runway_clr
+#undef _residential_lbl_ol_clr
+#undef _waterarea_ol_clr
+#undef _border_2_width
+#undef _capital_ol_clr
+#undef _building_font
+#undef _display_other_roads
+#undef _trunk_font
+#undef _country_lbl_clr
+#undef _cycleway_clr
+#undef _waterarea_data
+#undef _village_lbl_ol_width
+#undef _suburb_lbl_clr
+#undef _display_track_outline
+#undef _display_city_symbol
+#undef _building_lbl_ol_width
+#undef _residential_lbl_ol_width
+#undef _river_width
+#undef _motorway_ol_width
+#undef _forest_lbl_size
+#undef _primary_lbl_size
+#undef _cemetery_lbl_size
+#undef _education_font
+#undef _capital_clr
+#undef _display_capitals
+#undef _places_data
+#undef _other_bridge_width
+#undef _track_pattern
+#undef _canal_width
+#undef _other_font
+#undef _primary_lbl_ol_clr
+#undef _railway_pattern
+#undef _runway_width
+#undef _locality_lbl_clr
+#undef _village_lbl_size
+#undef _primary_ol_clr
+#undef _secondary_lbl_ol_clr
+#undef _railway_ol_width
+#undef _display_border_2_outer
+#undef _tertiary_ol_clr
+#undef _display_village_symbol
+#undef _hospital_lbl_ol_clr
+#undef _country_lbl_ol_clr
+#undef _hamlet_lbl_size
+#undef _residential_ol_clr
+#undef _display_pedestrian_lbl
+#undef _canal_lbl_clr
+#undef _village_ol_clr
+#undef _forest_font
+#undef _footway_ol_width
+#undef _minscale
+#undef _trunk_bridge_clr
+#undef _city_clr
+#undef _stream_lbl_ol_width
+#undef _secondary_clr
+#undef _hospital_lbl_ol_width
+#undef _track_lbl_ol_width
+#undef _suburb_clr
+#undef _canal_lbl_size
+#undef _display_motorway_links
+#undef _display_tracks
+#undef _city_size
+#undef _display_forest_lbl
+#undef _roads_data
+#undef _secondary_lbl_clr
+#undef _industrial_lbl_ol_clr
+#undef _industrial_ol_clr
+#undef _other_ol_width
+#undef _river_font
+#undef _education_lbl_clr
+#undef _display_waterarea_outline
+#undef _building_lbl_ol_clr
+#undef _river_lbl_ol_width
+#undef _sports_clr
+#undef _tertiary_bridge_clr
+#undef _residential_lbl_clr
+#undef _trunk_ol_clr
+#undef _other_lbl_size
+#undef _park_font
+#undef _village_lbl_clr
+#undef _display_hamlets
+#undef _cemetery_lbl_ol_clr
+#undef _pedestrian_lbl_ol_width
+#undef _secondary_width
+#undef _display_cycleways
+#undef _continent_font
+#undef _city_lbl_clr
+#undef _other_lbl_ol_clr
+#undef _capital_lbl_size
+#undef _residential_lbl_size
+#undef _pedestrian_bridge_clr
+#undef _forest_lbl_ol_clr
+#undef _tertiary_lbl_ol_width
+#undef _display_secondaries
+#undef _display_stream_lbl
+#undef _border_epsg
+#define _suburb_lbl_ol_width _suburb_lbl_ol_width13
+#define _tertiary_lbl_clr _tertiary_lbl_clr13
+#define _park_clr _park_clr13
+#define _village_lbl_ol_clr _village_lbl_ol_clr13
+#define _primary_lbl_ol_width _primary_lbl_ol_width13
+#define _track_font _track_font13
+#define _residential_clr _residential_clr13
+#define _waterarea_lbl_clr _waterarea_lbl_clr13
+#define _locality_size _locality_size13
+#define _display_tertiaries _display_tertiaries13
+#define _display_river_lbl _display_river_lbl13
+#define _cycleway_width _cycleway_width13
+#define _primary_lbl_clr _primary_lbl_clr13
+#define _display_pedestrian _display_pedestrian13
+#define _other_lbl_ol_width _other_lbl_ol_width13
+#define _continent_lbl_ol_clr _continent_lbl_ol_clr13
+#define _display_footways _display_footways13
+#define _border_data _border_data13
+#define _town_size _town_size13
+#define _city_lbl_ol_width _city_lbl_ol_width13
+#define _display_canal_lbl _display_canal_lbl13
+#define _display_towns _display_towns13
+#define _capital_font _capital_font13
+#define _hamlet_lbl_ol_width _hamlet_lbl_ol_width13
+#define _hamlet_size _hamlet_size13
+#define _display_continents _display_continents13
+#define _landusage_data _landusage_data13
+#define _maxscale _maxscale13
+#define _suburb_size _suburb_size13
+#define _display_town_symbol _display_town_symbol13
+#define _display_waterarea_lbl _display_waterarea_lbl13
+#define _village_font _village_font13
+#define _display_industrial_lbl _display_industrial_lbl13
+#define _tertiary_ol_width _tertiary_ol_width13
+#define _river_lbl_ol_clr _river_lbl_ol_clr13
+#define _runway_center_width _runway_center_width13
+#define _town_ol_clr _town_ol_clr13
+#define _suburb_lbl_size _suburb_lbl_size13
+#define _river_lbl_size _river_lbl_size13
+#define _display_trunks _display_trunks13
+#define _other_clr _other_clr13
+#define _stream_lbl_clr _stream_lbl_clr13
+#define _label_buildings _label_buildings13
+#define _land_epsg _land_epsg13
+#define _canal_font _canal_font13
+#define _hospital_lbl_size _hospital_lbl_size13
+#define _tertiary_width _tertiary_width13
+#define _suburb_lbl_ol_clr _suburb_lbl_ol_clr13
+#define _river_lbl_clr _river_lbl_clr13
+#define _suburb_font _suburb_font13
+#define _track_lbl_size _track_lbl_size13
+#define _motorway_ol_clr _motorway_ol_clr13
+#define _display_secondary_outline _display_secondary_outline13
+#define _locality_lbl_size _locality_lbl_size13
+#define _residential_font _residential_font13
+#define _sports_lbl_ol_clr _sports_lbl_ol_clr13
+#define _primary_width _primary_width13
+#define _display_park_lbl _display_park_lbl13
+#define _display_landusage _display_landusage13
+#define _town_font _town_font13
+#define _capital_lbl_ol_width _capital_lbl_ol_width13
+#define _education_lbl_ol_width _education_lbl_ol_width13
+#define _tertiary_bridge_width _tertiary_bridge_width13
+#define _waterarea_lbl_ol_clr _waterarea_lbl_ol_clr13
+#define _stream_font _stream_font13
+#define _city_ol_clr _city_ol_clr13
+#define _secondary_font _secondary_font13
+#define _display_education_lbl _display_education_lbl13
+#define _border_2_inner_width _border_2_inner_width13
+#define _track_lbl_clr _track_lbl_clr13
+#define _display_bridges _display_bridges13
+#define _sports_font _sports_font13
+#define _suburb_ol_clr _suburb_ol_clr13
+#define _display_railways _display_railways13
+#define _town_lbl_ol_width _town_lbl_ol_width13
+#define _display_hospital_lbl _display_hospital_lbl13
+#define _forest_clr _forest_clr13
+#define _trunk_lbl_size _trunk_lbl_size13
+#define _tertiary_clr _tertiary_clr13
+#define _country_lbl_ol_width _country_lbl_ol_width13
+#define _footway_width _footway_width13
+#define _pedestrian_font _pedestrian_font13
+#define _display_border_2 _display_border_213
+#define _stream_clr _stream_clr13
+#define _label_primaries _label_primaries13
+#define _river_clr _river_clr13
+#define _forest_lbl_ol_width _forest_lbl_ol_width13
+#define _town_lbl_ol_clr _town_lbl_ol_clr13
+#define _runway_center_clr _runway_center_clr13
+#define _building_clr _building_clr13
+#define _secondary_lbl_size _secondary_lbl_size13
+#define _secondary_ol_clr _secondary_ol_clr13
+#define _residential_ol_width _residential_ol_width13
+#define _motorway_width _motorway_width13
+#define _locality_lbl_ol_width _locality_lbl_ol_width13
+#define _park_lbl_size _park_lbl_size13
+#define _pedestrian_ol_clr _pedestrian_ol_clr13
+#define _cemetery_clr _cemetery_clr13
+#define _hamlet_ol_clr _hamlet_ol_clr13
+#define _label_secondaries _label_secondaries13
+#define _track_ol_width _track_ol_width13
+#define _hamlet_lbl_ol_clr _hamlet_lbl_ol_clr13
+#define _land_clr _land_clr13
+#define _trunk_ol_width _trunk_ol_width13
+#define _building_lbl_size _building_lbl_size13
+#define _sports_lbl_ol_width _sports_lbl_ol_width13
+#define _other_width _other_width13
+#define _tunnel_opacity _tunnel_opacity13
+#define _capital_fg_clr _capital_fg_clr13
+#define _footway_pattern _footway_pattern13
+#define _park_lbl_clr _park_lbl_clr13
+#define _display_highways _display_highways13
+#define _label_track _label_track13
+#define _pedestrian_width _pedestrian_width13
+#define _display_pedestrian_outline _display_pedestrian_outline13
+#define _display_waterways _display_waterways13
+#define _town_clr _town_clr13
+#define _locality_lbl_ol_clr _locality_lbl_ol_clr13
+#define _hospital_lbl_clr _hospital_lbl_clr13
+#define _border_2_inner_clr _border_2_inner_clr13
+#define _pedestrian_clr _pedestrian_clr13
+#define _taxiway_clr _taxiway_clr13
+#define _hospital_font _hospital_font13
+#define _building_ol_width _building_ol_width13
+#define _village_size _village_size13
+#define _display_trunk_links _display_trunk_links13
+#define _display_suburb_symbol _display_suburb_symbol13
+#define _canal_lbl_ol_clr _canal_lbl_ol_clr13
+#define _label_motorways _label_motorways13
+#define _industrial_font _industrial_font13
+#define _cycleway_ol_clr _cycleway_ol_clr13
+#define _continent_lbl_clr _continent_lbl_clr13
+#define _border_2_inner_pattern _border_2_inner_pattern13
+#define _town_lbl_size _town_lbl_size13
+#define _country_font _country_font13
+#define _waterways_data _waterways_data13
+#define _footway_ol_clr _footway_ol_clr13
+#define _pedestrian_bridge_width _pedestrian_bridge_width13
+#define _hamlet_lbl_clr _hamlet_lbl_clr13
+#define _canal_clr _canal_clr13
+#define _pedestrian_ol_width _pedestrian_ol_width13
+#define _cemetery_font _cemetery_font13
+#define _display_sports_lbl _display_sports_lbl13
+#define _railway_tunnel_opacity _railway_tunnel_opacity13
+#define _city_lbl_ol_clr _city_lbl_ol_clr13
+#define _waterarea_lbl_ol_width _waterarea_lbl_ol_width13
+#define _cemetery_lbl_clr _cemetery_lbl_clr13
+#define _village_clr _village_clr13
+#define _layer_suffix _layer_suffix13
+#define _track_clr _track_clr13
+#define _hospital_clr _hospital_clr13
+#define _motorway_clr _motorway_clr13
+#define _display_motorways _display_motorways13
+#define _display_other_outline _display_other_outline13
+#define _tertiary_font _tertiary_font13
+#define _city_lbl_size _city_lbl_size13
+#define _education_lbl_ol_clr _education_lbl_ol_clr13
+#define _label_other_roads _label_other_roads13
+#define _continent_lbl_size _continent_lbl_size13
+#define _trunk_clr _trunk_clr13
+#define _town_lbl_clr _town_lbl_clr13
+#define _industrial_lbl_clr _industrial_lbl_clr13
+#define _capital_fg_size _capital_fg_size13
+#define _pedestrian_lbl_ol_clr _pedestrian_lbl_ol_clr13
+#define _display_residential_lbl _display_residential_lbl13
+#define _ocean_clr _ocean_clr13
+#define _land_data _land_data13
+#define _display_hamlet_symbol _display_hamlet_symbol13
+#define _display_aeroways _display_aeroways13
+#define _education_lbl_size _education_lbl_size13
+#define _sports_lbl_clr _sports_lbl_clr13
+#define _sports_lbl_size _sports_lbl_size13
+#define _building_ol_clr _building_ol_clr13
+#define _capital_lbl_ol_clr _capital_lbl_ol_clr13
+#define _trunk_lbl_clr _trunk_lbl_clr13
+#define _railways_data _railways_data13
+#define _border_2_clr _border_2_clr13
+#define _other_lbl_clr _other_lbl_clr13
+#define _track_lbl_ol_clr _track_lbl_ol_clr13
+#define _industrial_ol_width _industrial_ol_width13
+#define _forest_lbl_clr _forest_lbl_clr13
+#define _stream_lbl_size _stream_lbl_size13
+#define _display_countries _display_countries13
+#define _primary_ol_width _primary_ol_width13
+#define _park_lbl_ol_width _park_lbl_ol_width13
+#define _motorway_bridge_width _motorway_bridge_width13
+#define _secondary_ol_width _secondary_ol_width13
+#define _capital_lbl_clr _capital_lbl_clr13
+#define _industrial_lbl_size _industrial_lbl_size13
+#define _railway_ol_clr _railway_ol_clr13
+#define _park_lbl_ol_clr _park_lbl_ol_clr13
+#define _motorway_lbl_clr _motorway_lbl_clr13
+#define _waterarea_font _waterarea_font13
+#define _primary_clr _primary_clr13
+#define _industrial_clr _industrial_clr13
+#define _display_residential _display_residential13
+#define _display_trunk_outline _display_trunk_outline13
+#define _pedestrian_lbl_clr _pedestrian_lbl_clr13
+#define _stream_lbl_ol_clr _stream_lbl_ol_clr13
+#define _primary_bridge_clr _primary_bridge_clr13
+#define _track_ol_clr _track_ol_clr13
+#define _primary_bridge_width _primary_bridge_width13
+#define _display_cemetery_lbl _display_cemetery_lbl13
+#define _display_footway_outline _display_footway_outline13
+#define _display_cities _display_cities13
+#define _tertiary_lbl_size _tertiary_lbl_size13
+#define _canal_lbl_ol_width _canal_lbl_ol_width13
+#define _cemetery_lbl_ol_width _cemetery_lbl_ol_width13
+#define _taxiway_width _taxiway_width13
+#define _track_width _track_width13
+#define _other_ol_clr _other_ol_clr13
+#define _tertiary_lbl_ol_clr _tertiary_lbl_ol_clr13
+#define _cycleway_pattern _cycleway_pattern13
+#define _trunk_width _trunk_width13
+#define _secondary_bridge_width _secondary_bridge_width13
+#define _other_bridge_clr _other_bridge_clr13
+#define _pedestrian_lbl_size _pedestrian_lbl_size13
+#define _display_cycleway_outline _display_cycleway_outline13
+#define _waterarea_ol_width _waterarea_ol_width13
+#define _runway_center_pattern _runway_center_pattern13
+#define _display_localities _display_localities13
+#define _display_tertiary_outline _display_tertiary_outline13
+#define _locality_font _locality_font13
+#define _stream_width _stream_width13
+#define _building_lbl_clr _building_lbl_clr13
+#define _city_font _city_font13
+#define _display_primary_outline _display_primary_outline13
+#define _waterarea_lbl_size _waterarea_lbl_size13
+#define _railway_clr _railway_clr13
+#define _display_locality_symbol _display_locality_symbol13
+#define _education_clr _education_clr13
+#define _hamlet_clr _hamlet_clr13
+#define _display_suburbs _display_suburbs13
+#define _primary_font _primary_font13
+#define _secondary_lbl_ol_width _secondary_lbl_ol_width13
+#define _display_capital_symbol _display_capital_symbol13
+#define _continent_lbl_ol_width _continent_lbl_ol_width13
+#define _railway_width _railway_width13
+#define _footway_clr _footway_clr13
+#define _motorway_lbl_size _motorway_lbl_size13
+#define _cycleway_ol_width _cycleway_ol_width13
+#define _waterarea_clr _waterarea_clr13
+#define _label_pedestrian _label_pedestrian13
+#define _label_trunks _label_trunks13
+#define _label_tertiaries _label_tertiaries13
+#define _trunk_bridge_width _trunk_bridge_width13
+#define _industrial_lbl_ol_width _industrial_lbl_ol_width13
+#define _capital_size _capital_size13
+#define _locality_ol_clr _locality_ol_clr13
+#define _country_lbl_size _country_lbl_size13
+#define _display_buildings _display_buildings13
+#define _hamlet_font _hamlet_font13
+#define _display_motorway_outline _display_motorway_outline13
+#define _secondary_bridge_clr _secondary_bridge_clr13
+#define _motorway_bridge_clr _motorway_bridge_clr13
+#define _locality_clr _locality_clr13
+#define _motorway_font _motorway_font13
+#define _display_villages _display_villages13
+#define _display_primaries _display_primaries13
+#define _runway_clr _runway_clr13
+#define _residential_lbl_ol_clr _residential_lbl_ol_clr13
+#define _waterarea_ol_clr _waterarea_ol_clr13
+#define _border_2_width _border_2_width13
+#define _capital_ol_clr _capital_ol_clr13
+#define _building_font _building_font13
+#define _display_other_roads _display_other_roads13
+#define _trunk_font _trunk_font13
+#define _country_lbl_clr _country_lbl_clr13
+#define _cycleway_clr _cycleway_clr13
+#define _waterarea_data _waterarea_data13
+#define _village_lbl_ol_width _village_lbl_ol_width13
+#define _suburb_lbl_clr _suburb_lbl_clr13
+#define _display_track_outline _display_track_outline13
+#define _display_city_symbol _display_city_symbol13
+#define _building_lbl_ol_width _building_lbl_ol_width13
+#define _residential_lbl_ol_width _residential_lbl_ol_width13
+#define _river_width _river_width13
+#define _motorway_ol_width _motorway_ol_width13
+#define _forest_lbl_size _forest_lbl_size13
+#define _primary_lbl_size _primary_lbl_size13
+#define _cemetery_lbl_size _cemetery_lbl_size13
+#define _education_font _education_font13
+#define _capital_clr _capital_clr13
+#define _display_capitals _display_capitals13
+#define _places_data _places_data13
+#define _other_bridge_width _other_bridge_width13
+#define _track_pattern _track_pattern13
+#define _canal_width _canal_width13
+#define _other_font _other_font13
+#define _primary_lbl_ol_clr _primary_lbl_ol_clr13
+#define _railway_pattern _railway_pattern13
+#define _runway_width _runway_width13
+#define _locality_lbl_clr _locality_lbl_clr13
+#define _village_lbl_size _village_lbl_size13
+#define _primary_ol_clr _primary_ol_clr13
+#define _secondary_lbl_ol_clr _secondary_lbl_ol_clr13
+#define _railway_ol_width _railway_ol_width13
+#define _display_border_2_outer _display_border_2_outer13
+#define _tertiary_ol_clr _tertiary_ol_clr13
+#define _display_village_symbol _display_village_symbol13
+#define _hospital_lbl_ol_clr _hospital_lbl_ol_clr13
+#define _country_lbl_ol_clr _country_lbl_ol_clr13
+#define _hamlet_lbl_size _hamlet_lbl_size13
+#define _residential_ol_clr _residential_ol_clr13
+#define _display_pedestrian_lbl _display_pedestrian_lbl13
+#define _canal_lbl_clr _canal_lbl_clr13
+#define _village_ol_clr _village_ol_clr13
+#define _forest_font _forest_font13
+#define _footway_ol_width _footway_ol_width13
+#define _minscale _minscale13
+#define _trunk_bridge_clr _trunk_bridge_clr13
+#define _city_clr _city_clr13
+#define _stream_lbl_ol_width _stream_lbl_ol_width13
+#define _secondary_clr _secondary_clr13
+#define _hospital_lbl_ol_width _hospital_lbl_ol_width13
+#define _track_lbl_ol_width _track_lbl_ol_width13
+#define _suburb_clr _suburb_clr13
+#define _canal_lbl_size _canal_lbl_size13
+#define _display_motorway_links _display_motorway_links13
+#define _display_tracks _display_tracks13
+#define _city_size _city_size13
+#define _display_forest_lbl _display_forest_lbl13
+#define _roads_data _roads_data13
+#define _secondary_lbl_clr _secondary_lbl_clr13
+#define _industrial_lbl_ol_clr _industrial_lbl_ol_clr13
+#define _industrial_ol_clr _industrial_ol_clr13
+#define _other_ol_width _other_ol_width13
+#define _river_font _river_font13
+#define _education_lbl_clr _education_lbl_clr13
+#define _display_waterarea_outline _display_waterarea_outline13
+#define _building_lbl_ol_clr _building_lbl_ol_clr13
+#define _river_lbl_ol_width _river_lbl_ol_width13
+#define _sports_clr _sports_clr13
+#define _tertiary_bridge_clr _tertiary_bridge_clr13
+#define _residential_lbl_clr _residential_lbl_clr13
+#define _trunk_ol_clr _trunk_ol_clr13
+#define _other_lbl_size _other_lbl_size13
+#define _park_font _park_font13
+#define _village_lbl_clr _village_lbl_clr13
+#define _display_hamlets _display_hamlets13
+#define _cemetery_lbl_ol_clr _cemetery_lbl_ol_clr13
+#define _pedestrian_lbl_ol_width _pedestrian_lbl_ol_width13
+#define _secondary_width _secondary_width13
+#define _display_cycleways _display_cycleways13
+#define _continent_font _continent_font13
+#define _city_lbl_clr _city_lbl_clr13
+#define _other_lbl_ol_clr _other_lbl_ol_clr13
+#define _capital_lbl_size _capital_lbl_size13
+#define _residential_lbl_size _residential_lbl_size13
+#define _pedestrian_bridge_clr _pedestrian_bridge_clr13
+#define _forest_lbl_ol_clr _forest_lbl_ol_clr13
+#define _tertiary_lbl_ol_width _tertiary_lbl_ol_width13
+#define _display_secondaries _display_secondaries13
+#define _display_stream_lbl _display_stream_lbl13
+#define _border_epsg _border_epsg13
